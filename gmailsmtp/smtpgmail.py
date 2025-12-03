@@ -8,7 +8,7 @@ load_dotenv()
 sender = os.getenv("EMAIL_ADDRESS")
 app_password = os.getenv("EMAIL_APP_PASSWORD")
 
-receiver = "am.shiii2003@gmail.com"
+receiver = "ph.rafie@gmail.com"
 
 # SMTP اتصال با جیمیل
 yag = yagmail.SMTP(sender, app_password)
